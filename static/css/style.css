@@ -5,6 +5,7 @@
     --color-primary-top: #fff;
     --background-card: #fff;
     --text-card: #252525;
+    --text-label: #aaa;
 }
 
 * {
@@ -97,6 +98,7 @@ nav a, nav a:hover {
 }
 
 .dsmovie-btn, .dsmovie-btn:hover {
+    border: 0;
     width: 180px;
     height: 40px;
     background-color: var(--background-topbar);
@@ -110,3 +112,43 @@ nav a, nav a:hover {
     text-decoration: none;
 }
 
+.dsmovie-form-container{    
+    padding: 40px;
+    max-width: 480px !important;
+}
+
+.dsmovie-form-description {
+    background-color: var(--background-card);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0 0 8px 8px;
+}
+
+.dsmovie-form-description h3 {
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.dsmovie-form {
+    width: 100%;
+}
+
+.dsmovie-form-group {
+    margin-bottom: 20px;
+}
+
+.dsmovie-form-group label{
+    color: var(--text-label);
+    font-size: 12px;
+}
+
+.dsmovie-form-btn-container {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
