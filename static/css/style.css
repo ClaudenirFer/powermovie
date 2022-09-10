@@ -55,6 +55,7 @@ nav a, nav a:hover {
     font-weight: 400;
 }
 
+
 .ds-movie-contact-container {
     display: flex;
     align-items: center;
@@ -65,9 +66,69 @@ nav a, nav a:hover {
 }
 
 
+.dsmovie-pagination-container  {
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.dsmovie-pagination-box {
+    width: 180px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dsmovie-pagination-box p {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--color-primary-top);
+}
+
+
+.dsmovie-pagination-box button {
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgb(70, 69, 69);
+    background-color: #000;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dsmovie-pagination-box button img {
+    margin: 0;
+    padding: 0;
+}
+
+.dsmovie-pagination-box button:disabled {
+    border: 1px solid rgb(144, 142, 142);
+    background-color: rgb(126, 116, 116);
+
+}
+
+/* para o button inverter na horizontal */
+.dsmovie-flip-horizontal img {
+    transform: rotate(180deg);
+}
+
+/* acertar o deslocamento do img p/ centralizar */
+.dsmovie-pagination-box .left-btn img {
+    margin-right: 3px;
+}
+
+/* acertar o deslocamento do img p/ centralizar */
+.dsmovie-pagination-box .right-btn img {
+    margin-left: 3px;
+}
+
+
+
 /* Cards */
 #dsmovie-card-list {
-    padding: 40px 10px;
+    padding: 0px 10px;
 }
 
 .dsmovie-card {
